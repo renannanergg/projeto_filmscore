@@ -1,0 +1,14 @@
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\bin\Debug\net9.0\projeto_filmscore.exe
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\bin\Debug\net9.0\projeto_filmscore.deps.json
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\bin\Debug\net9.0\projeto_filmscore.runtimeconfig.json
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\bin\Debug\net9.0\projeto_filmscore.dll
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\bin\Debug\net9.0\projeto_filmscore.pdb
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.AssemblyInfoInputs.cache
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.AssemblyInfo.cs
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.csproj.CoreCompileInputs.cache
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.dll
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\refint\projeto_filmscore.dll
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.pdb
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\projeto_filmscore.genruntimeconfig.cache
+C:\Users\55119\OneDrive\Documentos\GitHub\projeto_filmscore\obj\Debug\net9.0\ref\projeto_filmscore.dll
