@@ -1,16 +1,16 @@
 using FilmScore.Modelos;
+using projeto_filmscore.Banco;
 namespace FilmScore.Menus;
 
 internal class MenuFilmesRegistrados : Menu
 {
-    public override void Executar(Dictionary<string, Filme> filmesRegistrados)
+    public override void Executar(DAL<Filme> filmeDAL)
     {
-        base.Executar(filmesRegistrados);
+        base.Executar(filmeDAL);
         ExibirTituloDaOpção("Exibir Filmes Registrados");
-        Console.WriteLine($"\nExistem {Filme.ContadorDeFilme} filme(s) registrados: ");
-        foreach (string filme in filmesRegistrados.Keys)
+        foreach (var filme in filmeDAL.Listar())
         {
-            Console.WriteLine($"-{filme}");
+            Console.WriteLine($"-{filme.Título} | {filme.Gênero} | {filme.Ano}");
         }
         Console.Write("\nDigite qualquer tecla para voltar ao menu: ");
         Console.ReadKey();

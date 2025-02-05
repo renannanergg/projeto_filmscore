@@ -1,21 +1,22 @@
 using FilmScore.Modelos;
+using projeto_filmscore.Banco;
 namespace FilmScore.Menus;
 
 internal class MenuExibirDetalhesFilme : Menu
 {
-    public override void Executar(Dictionary<string, Filme> filmesRegistrados)
+    public override void Executar(DAL<Filme> filmeDAL)
     {
-        base.Executar(filmesRegistrados);
+        base.Executar(filmeDAL);
         ExibirTituloDaOpção("Exibir Detalhes do Filme ");
         Console.Write("Digite o nome do filme: ");
         string nomeFilme = Console.ReadLine()!;
+        var filmeRecuperado = filmeDAL.RecuperarPor(f => f.Título.Equals(nomeFilme));
         Console.Clear();
 
-        if (filmesRegistrados.ContainsKey(nomeFilme))
+        if (filmeRecuperado is not null)
         {
-            Filme filme = filmesRegistrados[nomeFilme];
+            Filme filme = filmeRecuperado;
             filme.ExibirFichaFilme();
-            Console.WriteLine($"**A média do filme {nomeFilme} é: {filme.Media}");
             Console.Write("\nDigite uma tecla para voltar ao menu principal: ");
             Console.ReadKey();
             Console.Clear();

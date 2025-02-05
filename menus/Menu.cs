@@ -1,4 +1,5 @@
 using FilmScore.Modelos;
+using projeto_filmscore.Banco;
 namespace FilmScore.Menus;
 
 internal class Menu
@@ -12,7 +13,7 @@ internal class Menu
         Console.WriteLine(asteriscos + "\n");
     }
 
-    public virtual void Executar(Dictionary<string, Filme> filmesRegistrados)
+    public virtual void Executar(DAL<Filme> filmeDAL)
     {
         Console.Clear();
     }
