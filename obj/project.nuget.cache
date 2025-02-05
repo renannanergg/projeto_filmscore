@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eABDjWymWis=",
+  "dgSpecHash": "BsBV7V7guoU=",
   "success": true,
   "projectFilePath": "C:\\Users\\55119\\OneDrive\\Documentos\\GitHub\\projeto_filmscore\\FilmScore.csproj",
   "expectedPackageFiles": [
@@ -68,16 +68,5 @@
     "C:\\Users\\55119\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\55119\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Data.SqlClient' 5.1.2 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "libraryId": "Microsoft.Data.SqlClient",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

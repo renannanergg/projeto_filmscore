@@ -1,11 +1,10 @@
-using FilmScore.Modelos;
-using projeto_filmscore.Banco;
+using FilmScore.Modelos.Modelos;
+using FilmScore.Shared.Data.Banco;
 namespace FilmScore.Menus;
-
 
 internal class MenuRegistrarFilme : Menu
 {
-   
+  
     public override void Executar(DAL<Filme> filmeDAL)
     {
         base.Executar(filmeDAL);

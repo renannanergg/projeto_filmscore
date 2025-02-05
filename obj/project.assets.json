@@ -218,7 +218,7 @@
           }
         },
         "build": {
-          "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
+          "build/net6.0/_._": {}
         }
       },
       "Microsoft.EntityFrameworkCore.Proxies/7.0.14": {
@@ -3045,11 +3045,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "FilmScore.Modelos >= 1.0.0",
-      "FilmScore.Shared.Data >= 1.0.0",
-      "Microsoft.Data.SqlClient >= 5.1.2",
-      "Microsoft.EntityFrameworkCore.Proxies >= 7.0.14",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.14"
+      "FilmScore.Shared.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3108,24 +3104,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Microsoft.Data.SqlClient": {
-            "target": "Package",
-            "version": "[5.1.2, )"
-          },
-          "Microsoft.EntityFrameworkCore.Proxies": {
-            "target": "Package",
-            "version": "[7.0.14, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[7.0.14, )"
-          },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "target": "Package",
-            "version": "[7.0.14, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -3145,17 +3123,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Microsoft.Data.SqlClient' 5.1.2 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "libraryId": "Microsoft.Data.SqlClient",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

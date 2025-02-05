@@ -1,7 +1,7 @@
 ﻿using FilmScore.Menus;
-using FilmScore.Modelos;
-using projeto_filmscore.Banco;
-using projeto_filmscore.menus;
+using FilmScore.Modelos.Modelos;
+using FilmScore.Shared.Data.Banco;
+
 
 var context = new FilmScoreContext();
 var filmeDAL = new DAL<Filme>(context);

@@ -1,8 +1,8 @@
 ﻿using FilmScore.Menus;
-using FilmScore.Modelos;
-using projeto_filmscore.Banco;
+using FilmScore.Modelos.Modelos;
+using FilmScore.Shared.Data.Banco;
 
-namespace projeto_filmscore.menus
+namespace FilmScore.Menus
 {
     internal class MenuExibirFilmePorAno : Menu 
     {
